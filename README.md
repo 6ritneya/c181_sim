@@ -1,4 +1,4 @@
-# C181 project: response delay, disturbance growth and a basic ramp-metering TMC
+# C181 project: Response delay, Disturbance growth and a basic ramp-metering TMC
 
 Author: Britney Aguirre. Python 3.10+.
 
