@@ -1,0 +1,89 @@
+{
+  "degraded": {
+    "tts_normal": 198.7037500000059,
+    "tts_dropout": 207.16725000000042,
+    "fallback_steps": 11,
+    "fallback_first": 1200.0,
+    "fallback_last": 1800.0,
+    "collisions": 0
+  },
+  "rep_seed": 7,
+  "wave_speed_tau1_kmh": -14.623937659598845,
+  "dqdk_30_kmh": 17.789660175535573,
+  "critical_density": 34.76428678110121,
+  "capacity": 2519.1582063858637,
+  "tmc": {
+    "0.0_none": {
+      "tts_vehh": 106.15351666666754,
+      "delay_vehh": 42.123622222222195,
+      "delay_main_vehh": 25.003030555555533,
+      "delay_ramp_vehh": 17.12059166666666,
+      "max_ramp_queue": 28.4,
+      "max_spillback": 26.2,
+      "max_upstream_queue": 26.7,
+      "collisions": 0.0,
+      "tts_min": 90.98130555555413,
+      "tts_max": 129.27022222222246
+    },
+    "0.0_fixed": {
+      "tts_vehh": 110.07696944444494,
+      "delay_vehh": 46.04707499999997,
+      "delay_main_vehh": 24.2066222222222,
+      "delay_ramp_vehh": 21.84045277777777,
+      "max_ramp_queue": 29.1,
+      "max_spillback": 30.2,
+      "max_upstream_queue": 26.9,
+      "collisions": 0.0,
+      "tts_min": 94.45333333333554,
+      "tts_max": 129.81736111110942
+    },
+    "0.0_alinea": {
+      "tts_vehh": 106.93475277777877,
+      "delay_vehh": 42.90485833333331,
+      "delay_main_vehh": 24.331708333333307,
+      "delay_ramp_vehh": 18.573149999999995,
+      "max_ramp_queue": 29.6,
+      "max_spillback": 25.9,
+      "max_upstream_queue": 26.7,
+      "collisions": 0.0,
+      "tts_min": 91.50352777777614,
+      "tts_max": 129.31213888888874
+    },
+    "0.3_none": {
+      "tts_vehh": 200.7981944444469,
+      "delay_vehh": 136.76829999999995,
+      "delay_main_vehh": 130.11098055555553,
+      "delay_ramp_vehh": 6.657319444444437,
+      "max_ramp_queue": 25.0,
+      "max_spillback": 0.9,
+      "max_upstream_queue": 168.8,
+      "collisions": 0.0,
+      "tts_min": 113.91208333333704,
+      "tts_max": 263.23102777777876
+    },
+    "0.3_fixed": {
+      "tts_vehh": 169.6084638888897,
+      "delay_vehh": 105.57856944444441,
+      "delay_main_vehh": 85.43663055555554,
+      "delay_ramp_vehh": 20.141938888888884,
+      "max_ramp_queue": 30.0,
+      "max_spillback": 14.8,
+      "max_upstream_queue": 93.3,
+      "collisions": 0.0,
+      "tts_min": 98.67858333333702,
+      "tts_max": 226.95283333333026
+    },
+    "0.3_alinea": {
+      "tts_vehh": 178.58681111111116,
+      "delay_vehh": 114.55691666666664,
+      "delay_main_vehh": 93.72192499999998,
+      "delay_ramp_vehh": 20.83499166666666,
+      "max_ramp_queue": 30.0,
+      "max_spillback": 22.0,
+      "max_upstream_queue": 112.2,
+      "collisions": 0.0,
+      "tts_min": 113.86280555555885,
+      "tts_max": 227.77013888888146
+    }
+  }
+}

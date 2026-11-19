@@ -1,0 +1,7 @@
+check,test,result,passed
+Free motion,"one vehicle, empty road, from 0 m/s",reaches 0.99 v0 = 33.0 m/s after 57 s,True
+Equilibrium,"uniform platoon at 20/30/40 veh/km, no disturbance",max speed error 0.000%,True
+Conservation,"entered = exited + on road, every step; queues empty at end","entered 2204, exited 2204, left 0",True
+Detector audit,D1 count = mainline vehicles served; D5 count = all exits,D1 1748 vs 1748; D5 2204 vs 2204,True
+Boundaries,"1,500 veh/h inflow, no ramp, 600-1800 s","D1 1563 veh/h, D5 1581 veh/h",True
+Time step,"A100 at 30 veh/km, dt 0.1 vs 0.05 s",tau 0.4: 0.82 vs 0.82 (0.6%); tau 1.0: 1.69 vs 1.76 (3.8%),True
